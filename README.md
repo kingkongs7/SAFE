@@ -5,8 +5,8 @@ This repository accompanies our research paper on **SAFE**. Our work is built up
 ## 📄 Paper Overview
 
 * **Title**: *\[SAFE: Semantic- and Frequency-Enhanced Curriculum for Cross-Domain Deepfake Detection]*
-* **Authors**: \[xxx], et al.
-* **Conference/Journal**: \[e.g., Submitted to AAAI 2026]
+* **Authors**: \[Yulin Yao, Kangfeng Zheng, Bin Wu, Jvjie Wang, Jiaqi Gao], et al.
+* **Conference/Journal**: \[AAAI 2026]
 * **Abstract**:
   \[Insert a concise version of your abstract here, 3-5 sentences summarizing the motivation, methodology, and key results.]
 
@@ -24,5 +24,6 @@ We conduct experiments primarily on:
 * [FF++](https://github.com/ondyari/FaceForensics) (FaceForensics++)
 * [DFDC](https://ai.facebook.com/datasets/dfdc)
 * [Celeb-DF](https://github.com/yuezunli/Celeb-DF)
+* [DF40](https://github.com/YZY-stack/DF40)
 
 Preprocessing and dataloader pipelines follow DeepfakeBench with additional CLIP-based input transformations.
