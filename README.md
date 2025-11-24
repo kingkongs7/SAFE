@@ -26,4 +26,18 @@ We conduct experiments primarily on:
 * [Celeb-DF](https://github.com/yuezunli/Celeb-DF)
 * [DF40](https://github.com/YZY-stack/DF40)
 
-Preprocessing and dataloader pipelines follow DeepfakeBench with additional CLIP-based input transformations.
+
+## 🚀 Getting Started
+1. Clone DeepfakeBench (required)
+```
+git clone https://github.com/SCLBD/DeepfakeBench
+```
+2. Install dependencies
+Our environment requirements follow DeepfakeBench.
+3. Clone this repository
+```
+https://github.com/kingkongs7/SAFE
+```
+4. Merge our files into deepfakebench
+5. Training SAFE
+The training script follows deepfakebench.
