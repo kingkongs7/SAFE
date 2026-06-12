@@ -26,6 +26,23 @@ We conduct experiments primarily on:
 * [Celeb-DF](https://github.com/yuezunli/Celeb-DF)
 * [DF40](https://github.com/YZY-stack/DF40)
 
+To support our curriculum learning strategy, we provide the precomputed difficulty scores used in the paper.
+
+The generated score files are packaged in: **score.7z** After extraction, place the score files in the corresponding dataset directories according to your experimental settings.
+
+### Score Generation Script 
+
+The complete score generation pipeline is provided in: **FFTScore.ipynb**
+
+This notebook contains the implementation details of our scoring procedure, including:
+
+- Fourier Correlation Variance (FCV) computation;
+- Spectral feature extraction and local consistency analysis;
+- Difficulty score calculation;
+- Preparation of curriculum learning annotations.
+
+Researchers who wish to reproduce or customize the scoring process can directly run the notebook and generate scores for new datasets.
+
 
 ## 🚀 Getting Started
 1. Clone DeepfakeBench (required)
@@ -41,3 +58,7 @@ https://github.com/kingkongs7/SAFE
 4. Merge our files into deepfakebench
 5. Training SAFE
 The training script follows deepfakebench.
+
+
+
+
