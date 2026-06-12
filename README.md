@@ -1,6 +1,8 @@
-# 🔍 My Deepfake Detection Benchmark Extension
+# 🔍 SAFE: Semantic- and Frequency-Enhanced Curriculum for Cross-Domain Deepfake Detection
 
-This repository accompanies our research paper on **SAFE**. Our work is built upon and extends the [DeepfakeBench](https://github.com/SCLBD/DeepfakeBench) framework, aiming to explore more accurate and generalizable detection pipelines through **multi-modal alignment**, **curriculum learning**, and **LoRA-based fine-tuning** on CLIP-like backbones.
+[📄 AAAI 2026 Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38179)
+
+This repository accompanies our AAAI 2026 paper and extends the [DeepfakeBench](https://github.com/SCLBD/DeepfakeBench) framework with multi-modal alignment, curriculum learning, and LoRA-based fine-tuning for cross-domain deepfake detection.
 
 ## 📄 Paper Overview
 
